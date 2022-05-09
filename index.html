@@ -25,214 +25,465 @@
     />
   </head>
   <body>
-    <header class="container header">
-      <a href="#" class="logo">
-        <img src="./images/logo.png" alt="logo" />
-      </a>
-      <nav class="header-nav">
-        <ul class="header-list list">
-          <li class="header-list-item">Home</li>
-          <li class="header-list-item">How to work</li>
-          <li class="header-list-item">Services</li>
-          <li class="header-list-item">Product</li>
-          <li class="header-list-item">Contact</li>
-        </ul>
-        <button type="button" class="header-btn">Register</button>
-      </nav>
+    <!------------------HEADER--------------------------------->
+
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </a>
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-list-item">
+              <a href="" class="nav-link link">Home</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#work" class="nav-link link">How to work</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#services" class="nav-link link">Services</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#product" class="nav-link link">Product</a>
+            </li>
+            <li class="header-list-item">
+              <a href="#contact" class="nav-link link">Contact</a>
+            </li>
+          </ul>
+          <button type="button" class="header-btn">Register</button>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="hero container">
-        <h1 class="hero-title">
-          You Can Eat Any Tasty Food You Like.
-        </h1>
-        <p class="hero-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris.
-        </p>
-        <button type="button" class="hero-btn">Get Started</button>
-        <div class="hero-feature">
-          <div class="hero-feature-item">
-            <p class="feature-title">Today 10:00am - 09:00pm</p>
-            <p class="feature-text">Working Time</p>
+      <!------------------HERO--------------------------------->
+
+      <section class="hero" id="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            You Can Eat Any Tasty Food You Like.
+          </h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris.
+          </p>
+          <div class="btn">
+            <button type="button" class="hero-btn">
+              Get Started
+            </button>
+            <div class="button-icon">
+              <svg class="icon" width="7" height="12">
+                <use href="./images/icons.svg#icon-btn"></use>
+              </svg>
+            </div>
           </div>
-          <div class="hero-feature-item">
-            <p class="feature-title">Washington, D.C., DC, USA</p>
-            <p class="feature-text">Our Location</p>
+          <div class="hero-network">
+            <a href="" class="hero-network-icon"
+              ><svg class="icon" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-facebook"
+                ></use></svg
+            ></a>
+            <a href="" class="hero-network-icon"
+              ><svg class="icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-insta"></use></svg
+            ></a>
+            <a href="" class="hero-network-icon"
+              ><svg class="icon" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-twitter"
+                ></use></svg
+            ></a>
+            <a href="" class="hero-network-icon"
+              ><svg class="icon" width="16" height="16">
+                <use
+                  href="./images/icons.svg#icon-linkedin"
+                ></use></svg
+            ></a>
           </div>
-          <div class="hero-feature-item">
-            <p class="feature-title">+17602781253</p>
-            <p class="feature-text">Call Online</p>
+
+          <div class="hero-feature">
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon">
+                <svg class="icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-time"></use>
+                </svg>
+              </div>
+              <p class="feature-title">Today 10:00am - 09:00pm</p>
+              <p class="feature-text">Working Time</p>
+            </div>
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon">
+                <svg class="icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-map"></use>
+                </svg>
+              </div>
+              <p class="feature-title">Washington, D.C., DC, USA</p>
+              <p class="feature-text">Our Location</p>
+            </div>
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon">
+                <svg class="icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-tel"></use>
+                </svg>
+              </div>
+              <p class="feature-title">+17602781253</p>
+              <p class="feature-text">Call Online</p>
+            </div>
+          </div>
+          <div class="hero-bgi">
+            <div></div>
           </div>
         </div>
       </section>
-      <section class="work">
-        <p>How to work</p>
-        <h2>Food Is An Important Part Of A Balanced Diet.</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit
-          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia
-          deserunt mollit anim id est laborum.
-        </p>
-        <button type="button">Learn More</button>
-      </section>
-      <section class="services">
-        <h2>Services</h2>
-        <h3>Why Choose Our Favorite Food</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit
-          esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia
-          deserunt mollit anim id est laborum.
-        </p>
-        <ul>
-          <li>
-            <h3>Qualityfull Food</h3>
-            <p>
-              But I must explain to you how all this mistaken idea of
-              denouncing pleasure and praising pain was born.
-            </p>
-          </li>
-          <li>
-            <h3>Healthy Food</h3>
-            <p>
-              But I must explain to you how all this mistaken idea of
-              denouncing pleasure and praising pain was born.
-            </p>
-          </li>
-          <li>
-            <h3>Fast Delivery</h3>
-            <p>
-              But I must explain to you how all this mistaken idea of
-              denouncing pleasure and praising pain was born.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="Product">
-        <h2>Product</h2>
-        <h3>Most Popular Items</h3>
-        <ul>
-          <li>
-            <img src="./images/product1.jpg" alt="" />
-            <h3>Gyro Sandwhich</h3>
-            <p>4.7</p>
-            <button>Add To Card</button>
-            <p>$350</p>
-          </li>
-          <li>
-            <img src="./images/product2.jpg" alt="" />
-            <h3>Enchilada</h3>
-            <p>4.7</p>
-            <button>Add To Card</button>
-            <p>$390</p>
-          </li>
-          <li>
-            <img src="./images/product3.jpg" alt="" />
-            <h3>Green Beans</h3>
-            <p>4.9</p>
-            <button>Add To Card</button>
-            <p>$230</p>
-          </li>
-          <li>
-            <img src="./images/product4.jpg" alt="" />
-            <h3>Pizza</h3>
-            <p>4.9</p>
-            <button>Add To Card</button>
-            <p>$150</p>
-          </li>
-          <li>
-            <img src="./images/product5.jpg" alt="" />
-            <h3>Chicken Pot Pies</h3>
-            <p>4.7</p>
-            <button>Add To Card</button>
-            <p>$260</p>
-          </li>
-          <li>
-            <img src="./images/product6.jpg" alt="" />
-            <h3>Green Salad</h3>
-            <p>4.9</p>
-            <button>Add To Card</button>
-            <p>$100</p>
-          </li>
-        </ul>
-        <a href="">See More Product</a>
-      </section>
-      <section>
-        <h2>Simple Way To Order Your Foods</h2>
-        <div class="Google-pay">
-          <p>GET IN ON</p>
-          <p>Google Play</p>
-        </div>
-        <div class="apple-store">
-          <p>Download on the</p>
-          <p>Apple Store</p>
+
+      <!------------------WORK--------------------------------->
+
+      <section class="work" id="work">
+        <div class="container">
+          <div class="work-img"></div>
+          <h2 class="work-title">How to work</h2>
+          <h3 class="work-title-text">
+            Food Is An Important Part Of A Balanced Diet.
+          </h3>
+          <p class="work-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+          <div class="btn">
+            <button type="button" class="work-btn">Learn More</button>
+            <div class="button-icon">
+              <svg class="icon" width="7" height="12">
+                <use href="./images/icons.svg#icon-btn"></use>
+              </svg>
+            </div>
+          </div>
         </div>
       </section>
-      <section>
-        <h2>Testimonials</h2>
-        <p>Our Happy Client Says</p>
-        <p>Williams Johon</p>
-        <p>CEO & Co-Founder</p>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor."
-        </p>
-        <button type="button"></button>
-        <button type="button"></button>
+
+      <!------------------SERVICES--------------------------------->
+
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="services-title">Services</h2>
+          <h3 class="services-title-text">
+            Why Choose Our Favorite Food
+          </h3>
+          <ul class="services-list list">
+            <li class="services-item">
+              <div class="services-icon">
+                <svg class="icon" width="30" height="30">
+                  <use href="./images/icons.svg#icon-quality"></use>
+                </svg>
+              </div>
+              <p class="services-item-title">Qualityfull Food</p>
+              <p class="services-item-text">
+                But I must explain to you how all this mistaken idea
+                of denouncing pleasure and praising pain was born.
+              </p>
+            </li>
+            <li class="services-item">
+              <div class="services-icon">
+                <svg class="icon" width="30" height="30">
+                  <use href="./images/icons.svg#icon-healthy"></use>
+                </svg>
+              </div>
+              <p class="services-item-title">Healthy Food</p>
+              <p class="services-item-text">
+                But I must explain to you how all this mistaken idea
+                of denouncing pleasure and praising pain was born.
+              </p>
+            </li>
+            <li class="services-item">
+              <div class="services-icon">
+                <svg class="icon" width="30" height="30">
+                  <use href="./images/icons.svg#icon-delivery"></use>
+                </svg>
+              </div>
+              <p class="services-item-title">Fast Delivery</p>
+              <p class="services-item-text">
+                But I must explain to you how all this mistaken idea
+                of denouncing pleasure and praising pain was born.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <h2>Subcribe To Our Newsletter</h2>
-        <p>
-          Email subsription is an opportunity to recevie an interting
-          newsletter from a website. once a user fills in the
-          subscription from on a website.
-        </p>
-        <form>
-          <input type="text" />
-          <button type="button">SUBCRIBE</button>
-        </form>
+
+      <!------------------PRODUCT--------------------------------->
+
+      <section class="product" id="product">
+        <div class="container">
+          <h2 class="product-title">Product</h2>
+          <h3 class="product-title-text">Most Popular Items</h3>
+          <ul class="product-list list">
+            <li class="product-item">
+              <img src="./images/product1.jpg" alt="" />
+              <div class="product-item-wrap">
+                <h3 class="product-item-title">Gyro Sandwhich</h3>
+                <p class="product-item-stars">4.7</p>
+                <button class="product-item-btn">Add To Card</button>
+                <p class="product-item-price">$350</p>
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="./images/product2.jpg" alt="" />
+              <div class="product-item-wrap">
+                <h3 class="product-item-title">Enchilada</h3>
+                <p class="product-item-stars">4.7</p>
+                <button class="product-item-btn">Add To Card</button>
+                <p class="product-item-price">$390</p>
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="./images/product3.jpg" alt="" />
+              <div class="product-item-wrap">
+                <h3 class="product-item-title">Green Beans</h3>
+                <p class="product-item-stars">4.9</p>
+                <button class="product-item-btn">Add To Card</button>
+                <p class="product-item-price">$230</p>
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="./images/product4.jpg" alt="" />
+              <div class="product-item-wrap">
+                <h3 class="product-item-title">Pizza</h3>
+                <p class="product-item-stars">4.9</p>
+                <button class="product-item-btn">Add To Card</button>
+                <p class="product-item-price">$150</p>
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="./images/product5.jpg" alt="" />
+              <div class="product-item-wrap">
+                <h3 class="product-item-title">Chicken Pot Pies</h3>
+                <p class="product-item-stars">4.7</p>
+                <button class="product-item-btn">Add To Card</button>
+                <p class="product-item-price">$260</p>
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="./images/product6.jpg" alt="" />
+              <div class="product-item-wrap">
+                <h3 class="product-item-title">Green Salad</h3>
+                <p class="product-item-stars">4.9</p>
+                <button class="product-item-btn">Add To Card</button>
+                <p class="product-item-price">$100</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="btn">
+            <a href="" class="product-btn link">See More Product</a>
+            <div class="button-icon">
+              <svg class="icon" width="7" height="12">
+                <use href="./images/icons.svg#icon-btn"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------NETWORKS--------------------------------->
+
+      <section class="netwokrs container" id="netwokrs">
+        <div class="networks-wrapper">
+          <h2 class="networks-title">
+            Simple Way To Order Your Foods
+          </h2>
+          <ul class="networks-list list">
+            <li class="networks-item">
+              <a href="" class="networks-link link">
+                <svg class="networks-icon" width="37" height="40">
+                  <use href="./images/icons.svg#icon-google"></use>
+                </svg>
+                <p class="networks-item-text">GET IN ON</p>
+                <p class="networks-item-title">Google Play</p>
+              </a>
+            </li>
+            <li class="networks-item">
+              <a href="" class="networks-link link">
+                <svg class="networks-icon" width="32" height="40">
+                  <use href="./images/icons.svg#icon-apple"></use>
+                </svg>
+                <p class="networks-item-text">Download on the</p>
+                <p class="networks-item-title">Apple Store</p>
+              </a>
+            </li>
+          </ul>
+          <div class="networks-img-1"></div>
+          <div class="networks-img-2"></div>
+        </div>
+      </section>
+
+      <!------------------TESTEMONIALS--------------------------------->
+
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="testimonials-title">Testimonials</h2>
+          <h3 class="testimonials-text">Our Happy Client Says</h3>
+          <div class="testimonials-wrap">
+            <div class="testimonials-user">
+              <img
+                src="./images/photo.jpg"
+                alt="photo"
+                class="testimonials-photo"
+              />
+              <div>
+                <p class="testimonials-name">Williams Johon</p>
+                <p class="testimonials-profession">
+                  CEO & Co-Founder
+                </p>
+              </div>
+            </div>
+
+            <p class="testimonials-review">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor."
+            </p>
+            <div>
+              <button type="button" class="testimonials-btn-right">
+                <svg class="testimonials-icon" width="22" height="10">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+              <button type="button" class="testimonials-btn-left">
+                <svg class="testimonials-icon" width="22" height="10">
+                  <use href="./images/icons.svg#icon-arrow-rev"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="testimonials-salad"></div>
+          <div class="testimonials-vegetable"></div>
+        </div>
+      </section>
+
+      <!------------------SUBSCRIBE--------------------------------->
+
+      <section class="subscribe container">
+        <div class="subscribe-wrapper">
+          <div class="subscribe-img"></div>
+          <h2 class="subscribe-title">Subscribe To Our Newsletter</h2>
+          <p class="subscribe-text">
+            Email subsription is an opportunity to recevie an
+            interting newsletter from a website. once a user fills in
+            the subscription from on a website.
+          </p>
+          <form>
+            <div class="form-wrap">
+              <input
+                type="email"
+                class="form-input"
+                placeholder="Type your email..."
+              />
+              <button type="submit" class="form-btn">SUBCRIBE</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <p>LOGO</p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt.
-      </p>
-      <p>Opening Restaurant</p>
-      <p>Sa - We: 09:00am - 10:00pm</p>
-      <p>Thursday: 09:00am - 05:00pm</p>
-      <p>Friday: Closed</p>
-      <p>User Link</p>
-      <a href="">>About Us</a>
-      <a href="">Contact Us</a>
-      <a href="">Order Delivery</a>
-      <a href="">Payment & Tax</a>
-      <a href="">Terms of Services</a>
-      <p>Contact Us</p>
-      <address>543 Country Club Ave, NC 27587, London, UK</address>
-      <a href="tel:+12596541120">+1259 6541120</a>
-      <form>
-        <input type="email" />
-        <button type="button"></button>
-      </form>
-      <p>Copyrights 2021 Food Bill All rights reserved.</p>
+    <!------------------FOOTER--------------------------------->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-networks">
+            <a href="#" class="logo">
+              <img src="./images/logo.png" alt="logo" />
+            </a>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt.
+            </p>
+            <div class="footer-network">
+              <a href="" class="footer-network-icon"
+                ><svg class="icon" width="16" height="16">
+                  <use
+                    href="./images/icons.svg#icon-facebook"
+                  ></use></svg
+              ></a>
+              <a href="" class="footer-network-icon"
+                ><svg class="icon" width="16" height="16">
+                  <use
+                    href="./images/icons.svg#icon-insta"
+                  ></use></svg
+              ></a>
+              <a href="" class="footer-network-icon"
+                ><svg class="icon" width="16" height="16">
+                  <use
+                    href="./images/icons.svg#icon-twitter"
+                  ></use></svg
+              ></a>
+              <a href="" class="footer-network-icon"
+                ><svg class="icon" width="16" height="16">
+                  <use
+                    href="./images/icons.svg#icon-linkedin"
+                  ></use></svg
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-worktime">
+            <p class="title">Opening Restaurant</p>
+            <p class="text">Sa - We: 09:00am - 10:00pm</p>
+            <p class="text">Thursday: 09:00am - 05:00pm</p>
+            <p class="text">Friday: Closed</p>
+          </div>
+
+          <div class="footer-links">
+            <p class="title">User Link</p>
+            <a href="#hero" class="text link">About Us</a>
+            <a href="#contact" class="text link">Contact Us</a>
+            <a href="#netwokrs" class="text link">Order Delivery</a>
+            <a href="" class="text link">Payment & Tax</a>
+            <a href="" class="text link">Terms of Services</a>
+          </div>
+
+          <div class="footer-contacts" id="contact">
+            <p class="title">Contact Us</p>
+            <a
+              href="https://goo.gl/maps/5CkU3RbwRzaWCBfc6"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="text link"
+            >
+              543 Country Club Ave, NC 27587, London, UK</a
+            >
+            <a href="tel:+12596541120" class="text link"
+              >+1259 6541120</a
+            >
+            <form class="footer-form">
+              <input
+                type="email"
+                class="footer-form-input"
+                placeholder="Enter your email..."
+              />
+              <button type="submit" class="footer-btn">
+                <svg class="icon" width="7" height="12">
+                  <use href="./images/icons.svg#icon-btn"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <p class="footer-copyrights">
+          Copyrights© 2021 Food Bill All rights reserved.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
