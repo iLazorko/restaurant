@@ -161,6 +161,21 @@ img {
   margin-bottom: 50px;
 }
 
+.hero-button:hover .hero-btn {
+  background-color: var(--btn-accent-bgc);
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.hero-button:hover .button-icon {
+  background-color: var(--accent-color);
+  fill: var(--accent-text-color);
+}
+
+.hero-button:HOVER .button-icon .icon{
+  fill: var(--accent-text-color);
+}
+
 .hero-btn {
   display: flex;
   align-items: center;
@@ -199,23 +214,6 @@ img {
 .button-icon > .icon {
   fill: var(--accent-color);
   transition: fill 300ms var(--timing-function);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--btn-accent-bgc);
-  border: 2px solid var(--accent-color);
-  color: var(--accent-color);
-}
-
-.hero-btn:hover + .button-icon,
-.hero-btn:focus + .button-icon {
-  background-color: var(--accent-color);
-}
-
-.hero-btn:hover + .button-icon .icon,
-.hero-btn:focus + .button-icon .icon {
-  fill: var(--accent-text-color);
 }
 
 .hero-network {
